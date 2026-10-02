@@ -1,0 +1,17 @@
+# Program Name: Function to Count Vowels in a String
+
+def count_vowels(text):
+
+    count = 0
+
+    for ch in text:
+
+        if ch in "aeiouAEIOU":
+            count += 1
+
+    return count
+
+
+text = input("Enter a string: ")
+
+print("Number of vowels:", count_vowels(text))
