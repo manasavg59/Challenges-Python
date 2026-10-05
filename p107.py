@@ -1,0 +1,13 @@
+# Program 107: Find the Largest Word in a Sentence
+
+sentence = input("Enter a sentence: ")
+
+words = sentence.split()
+
+largest = words[0]
+
+for word in words:
+    if len(word) > len(largest):
+        largest = word
+
+print("Largest word:", largest)
