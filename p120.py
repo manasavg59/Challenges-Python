@@ -1,0 +1,5 @@
+# 120. Write a Python Program to calculate perimeter of a rectangle.
+length = float(input("Enter length of rectangle: "))
+breadth = float(input("Enter breadth of rectangle: "))
+perimeter = 2 * (length + breadth)
+print("Perimeter of rectangle =", perimeter)
